@@ -15,6 +15,6 @@
 * Snake class
   * 
 
-# Current Features
+# Code Cobra: Current Features
 
 * 
