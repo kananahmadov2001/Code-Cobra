@@ -1,10 +1,16 @@
 # CodeCobra
 
 * Food class
-* setting the position of the food to a random spot within the boundary of the window. In BodySegment be sure to set the color instance variable, a ColorUtils class has been provided that you can use if you wish.
-* Drawing each object as a circle makes collision detection a bit more straightforward, however you are welcome to draw each component in whatever way you wish.
-* Game and Snake will be where most of the work of this assignment is done. Start by noticing that the code to handle keyboard input has been provided for you. If you run the provided Game class, you can test the keyboard using the WASD keys and the console. We need to get the information from the keyboard to the Snake which can be done with the provided changeDirection() method in the Snake class.
-* Start with the constructor to Snake. We are using a LinkedList<BodySegment> to represent our Snake, so this must be initialized in the Snake constructor. We also want our new Snake to have at least one BodySegment, so within the constructor you should create a new BodySegment and add it to the list. Next, complete the draw() method in the Snake class by iterating through the list and telling each BodySegment to draw itself. Finally, start the move() method by retrieving the BodySegment representing the head of the snake from the LinkedList and updating its position by adding to the deltaX and deltaY values to its respective X and Y coordinates.
-* Moving to the Game class, within the constructor you should construct a new instance of Snake and Food and store them each in instance variables. Complete the updateDrawing() method such that it will clear the screen and redraw each of the game components. You can then update the loop within the play() method to incorporate your Snake: pass the direction to the Snake and tell it to move(), then updateDrawing(). If all goes well, you should have a (small) moving Snake!
-* The Food should cause your Snake to grow, but first you must complete the eat() method of the Snake class to determine if the head of the Snake overlaps the Food (refer to our previous Zombie assignments for a discussion of this concept). If the Snake successfully eats the Food then a new BodySegment should be added to the Snake. This will require you to go back and revisit the move() method to update the position of all of the BodySegment s in the list, not just the head. Hint: you may want to consider starting to move the snake from the back. Don’t forget to add your Food into the while loop in play() to make sure it works!
-* The final part of the game is to check whether the head of the Snake collides with the edge of the screen, which can be done with the isInbounds() method. Once this method is complete, update the while loop in play() to end the game appropriately.
+  * setting the position of the food to a random spot within the boundary of the window.
+
+* BodySegment class
+  * 
+
+* ColorUtils class
+  * 
+
+* Game class
+  * 
+
+* Snake class
+  * 
