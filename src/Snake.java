@@ -1,5 +1,4 @@
 import java.util.LinkedList;
-
 import edu.princeton.cs.introcs.StdDraw;
 
 public class Snake {
