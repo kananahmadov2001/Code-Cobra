@@ -1,4 +1,4 @@
-# CodeCobra
+# Code Cobra
 
 * Food class
   * setting the position of the food to a random spot within the boundary of the window.
