@@ -21,6 +21,7 @@
 * Snake class
   * 
 
-# Code Cobra: Current Features
+<div align="center">
+    <h2 id="Header">Current Features</h2>
+</div>
 
-* 
